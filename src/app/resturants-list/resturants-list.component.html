@@ -2,7 +2,7 @@
 <!-- Section-->
 <section class="py-5 px-5">
     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-        <div *ngFor="let resturant of resturatantLists | filterSearch:filterString: 'name' " class="col mb-5">
+        <div *ngFor="let resturant of resturatantLists | filterSearch: filterString: 'name' " class="col mb-5">
             <div class="card h-100 p-1">
                 <!-- Product image-->
                 <img style="height: 500px;" class="card-img-top" src="{{resturant.photograph}}" alt="{{resturant.name}}" />
