@@ -1,0 +1,89 @@
+
+
+
+    Angular front End Technique
+
+        Basic commands
+        ----------------
+
+    1.Creation of angular Project-ng new project-name
+    
+    2.to run angular project- ng serve --open
+
+    3.component Creation- ng g c component-name
+
+    4. Service creation - ng g s service-name 
+
+
+
+        Basic Concepts
+    --------------------
+
+    1. Module - To import libraries -root module by defalut its name AppModule
+
+    2. components -html,css,ts
+
+    3. To set up path for componant -App routing module file
+
+    4.routing outlet selector for user required pages
+
+    5. angular service 
+
+    6. dependancy injection -(if want to share data between two depended class then instance of a class to be assigned to object of depended class. )   
+                                inside constructor
+
+                                syntax:- access specifer object-name: dependent-class-name
+    7. asynchronous rxjs observable -subscribe()
+
+    8.Data Binding - Sharing data inside a component 
+
+        8.1 one way Binding
+
+            8.1.1 component to view
+
+                8.1.1.1 String Interpolation - {{variable-name}}
+                8.1.1.2 Property Binding - [attribute]="property name"
+            
+            8.1.2 view to component
+                
+                8.1.2.1 Even Binding -(event)="function-call"
+                8.1.2.2 Event Binding using $event -(event)="function-call($event)"
+                8.1.2.3 Template reference variable, #variable-name
+        
+        8.2 Two way binding
+
+            8.2.1 ngModel (Template driven forms) - Import FormsModule , [(ngModel)]="variable-name"
+
+                    ngSubmit-apply it in form tag ,(ngSubmit)="function call"
+
+    9. Angular Directive - to manipulate DOM
+    
+        9.1 Component Directive
+        9.2 structural Directive - to add/remove html element
+            9.2.1 *ngIf = "condition"
+            9.2.2 *ngFor = "let variable-name of array-name"
+
+    10. ActivateRoute - Provide access to information about a route associated with a component 
+
+    11. Router class - use navigateByUrl(), to navigate one to another using ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
